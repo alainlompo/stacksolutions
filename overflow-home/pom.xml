@@ -5,6 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Home for stack overflow labs</name>
+
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <modules>
   	<module>stack-commons</module>
   	<module>stack-learning</module>
