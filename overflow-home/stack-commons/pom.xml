@@ -26,29 +26,27 @@
 		<artifactId>commons-collections4</artifactId>
 		<version>4.0</version>
 	  </dependency>
-	  
+
+	  <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 	  <dependency>
-		<groupId>com.fasterxml.jackson.core</groupId>
-		<artifactId>jackson-databind</artifactId>
-		<version>2.9.7</version>
+		  <groupId>com.fasterxml.jackson.core</groupId>
+		  <artifactId>jackson-databind</artifactId>
+		  <version>2.10.0</version>
 	  </dependency>
-	  
+
+
 	  <dependency>
 		<groupId>com.fasterxml.jackson.datatype</groupId>
 		<artifactId>jackson-datatype-guava</artifactId>
 		<version>2.1.2</version>
 	  </dependency>
-	  
+
+	  <!-- https://mvnrepository.com/artifact/org.openehealth.ipf.oht.mdht/ipf-oht-mdht-uml-cda-ihe -->
 	  <dependency>
-	      <groupId>org.openhealthtools.mdht.uml.cda</groupId>
-	      <artifactId>ihe</artifactId>
-	      <version>1.2.0.201405161834</version>
+		  <groupId>org.openehealth.ipf.oht.mdht</groupId>
+		  <artifactId>ipf-oht-mdht-uml-cda-ihe</artifactId>
+		  <version>1.2.0.201212201425</version>
 	  </dependency>
-	  
-	  
-	  
-	  
-	  
   </dependencies>
   <artifactId>stack-commons</artifactId>
   <name>Stack commons</name>
